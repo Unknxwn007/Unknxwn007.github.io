@@ -1,0 +1,45 @@
+body {
+    background-color: #252525;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.ItemContainer {
+    text-align: center;
+}
+
+.Item span {
+    color: white;
+    
+    font-family: Consolas, monaco, monospace; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+}
+
+.Item {
+    font-family: Consolas, monaco, monospace; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+
+    margin: 0;
+
+    color: rgb(200, 7, 7);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(200, 7, 7);
+}
