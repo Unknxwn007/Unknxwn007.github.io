@@ -1,0 +1,33 @@
+html {
+    background-color: #252525; /* #1E1E1E;*/
+    color: #FCFCFC;
+}
+
+body {
+    font-family: Consolas;
+}
+
+.addresses {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+}
+
+.footer-text {
+    position: absolute;
+    right: 50%;
+    bottom: 2%;
+    transform: translate(50%,50%);
+}
+
+a:link, a:visited {
+    color: rgb(200, 7, 7);
+    text-decoration: none;
+}
+
+.logo {
+    margin-bottom: -.7em;
+    margin-right: 1em;
+    height: 32px;
+}
