@@ -1,3 +1,57 @@
 body {
     background-color: #252525;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.footerLinks {
+    font-family: Consolas; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+
+    color: white;
+}
+
+footer {
+    background-color: #252525; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: rgb(200, 7, 7);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery {
+    margin: 5px;
+    width: 180px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
 }
